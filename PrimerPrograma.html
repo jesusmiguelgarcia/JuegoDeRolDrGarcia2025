@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/Javascript" src="primero.js"></script>
+    <script>
+        /*
+        README - LEEME
+        Primer programa de java script
+        Autor: Dr. Garcia
+        Modulos
+        Funciones
+        Variables
+        */
+    </script>
+</head>
+<body>
+    <p id="demo"> Ejemplo </p>
+    <!-- Otro elemento de P y cambia por poema   -->
+     <p id="demo1"></p>
+
+    <script>
+        // Mi primer Script
+        document.getElementById("demo").innerHTML="Hola <strong> Dr. Garcia </strong>";
+        console.log("Hola","Mundo");
+        console.log("Feliz","Inicio","Semestre 2025-1");
+        let nombrePoema = "A la Sierra";
+        poema = `
+        ---Mi Poema: ${nombrePoema}--- <br>
+        La sierra siempre montañosa  <br>
+        Las montañas simepre rocosas <br>
+        Y los alumnos simpre trabajadores <br>
+        `;
+        document.getElementById("demo1").innerHTML=poema;
+
+    </script>
+
+    <button onclick="alert('Bienvenido a la pagina del Dr. Garcia')"> Pulsame </button>
+
+</body>
+</html>
